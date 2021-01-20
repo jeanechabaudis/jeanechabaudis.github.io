@@ -1,11 +1,12 @@
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_programador_fitness',
-  urlsToCache = [
-    '/icons/favicon.ico'
-  ]
+const CACHE_NAME = 'offline',
+	urlsToCache = [
+		'/icons/favicon.ico'
+	]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
+console.log('install')
   e.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
