@@ -1,0 +1,36 @@
+{
+	"name": "Sistema C34 Lite",
+	"short_name": "C34 Lite",
+	"description": "SISTEMA DE FACTURACIÓN ELECTRÓNICA 100% WEB",
+	"icons": [
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-168.png",
+			"sizes": "168x168",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/",
+	"display": "fullscreen",
+	"theme_color": "#B12A34",
+	"background_color": "#B12A34"
+}
