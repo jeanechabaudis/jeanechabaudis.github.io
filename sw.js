@@ -6,7 +6,6 @@ const CACHE_NAME = 'offline',
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
-console.log('install')
   e.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
