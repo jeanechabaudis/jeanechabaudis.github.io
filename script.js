@@ -3,5 +3,3 @@ if ('serviceWorker' in navigator) {
 	.then(reg=>console.log('Registro de SW exitoso.',reg))
 	.catch(err=>console.log('Error al registrar SW.',err))
 }
-
-alert("hola")
