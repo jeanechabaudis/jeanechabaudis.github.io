@@ -4,4 +4,4 @@ if ('serviceWorker' in navigator) {
 	.catch(err=>console.log('Error al registrar SW.',err))
 }
 
-alert("hola")
+alert("hola buenos dias")
