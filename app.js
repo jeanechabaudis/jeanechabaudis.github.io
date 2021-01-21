@@ -1,1 +1,1 @@
-alert("app.js")
+alert("lorem")
